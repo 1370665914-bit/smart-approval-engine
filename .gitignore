@@ -1,0 +1,28 @@
+# Config files with real credentials
+config/settings.yaml
+config/oa_api.env
+*.env
+
+# Local runtime state
+logs/
+data/*.jsonl
+*.sqlite
+*.sqlite3
+
+# Python / Node
+__pycache__/
+.venv/
+node_modules/
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Secrets (belt and suspenders)
+*.pem
+*.key
+id_ed25519*
+credentials*
